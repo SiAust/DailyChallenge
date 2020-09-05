@@ -58,4 +58,23 @@ The classic algorithm for solving this problem relies on using a stack.
     2.2 if the current is a closing bracket ")" or "}" or "]" then remove (pop) the top element from the stack.
     If the popped bracket does not match the starting bracket then parentheses are not balanced;
 3. if there are some starting brackets left in the stack after completing traversal,
-then the parentheses are not balanced */
+then the parentheses are not balanced
+
+Sample Input 1:
+
+([][])
+Sample Output 1:
+
+true
+Sample Input 2:
+
+([](){([])})
+Sample Output 2:
+
+true
+Sample Input 3:
+
+{{[()]]
+Sample Output 3:
+
+false */
